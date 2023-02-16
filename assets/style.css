@@ -1,11 +1,11 @@
 @font-face {
     font-family: "poppins";
-    src: url("/fonts/Poppins-Medium.ttf");
+    src: url("josrax.github.io/fonts/Poppins-Medium.ttf");
 }
 
 @font-face {
     font-family: "Hafs";
-    src: url("/fonts/Hafs.ttf");
+    src: url("josrax.github.io/fonts/Hafs.ttf");
 }
 
 * {
