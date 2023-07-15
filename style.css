@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  color: black;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(
+    circle,
+    rgba(136, 41, 255, 1) 0%,
+    rgba(56, 0, 60, 1) 100%
+  );
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 19px;
+}
+
+header {
+  width: 100vw;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  padding: 29px 39px;
+  align-self: baseline;
+}
+
+.logo {
+  width: 49px;
+}
+
+div {
+  border: white;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 39cqmin;
+  aspect-ratio: 1/1;
+  position: relative;
+}
+
+div img {
+  width: 100%;
+  height: 89%;
+  object-fit: contain; 
+  position: absolute;
+  margin: auto;
+  bottom: 0;
+}
+img{
+  pointer-events: none;
+}
+
+h1.goals{
+  text-transform: uppercase;
+  color: white;
+  z-index: 99;
+  font-size: 7cqmin;
+  position: absolute;
+  top: 0;
+  left: 3%;
+}
+
+.mc,
+.mc div {
+  background: rgb(61, 181, 255);
+}
+
+.t{
+  background-color: navy;
+}
+.br{
+  background-color: red;
+}
+
+.mu{
+  background-color: orangered;
+}
+
+.mu h1{
+  color: yellow;
+}
+
+.lp{
+  background-color: darkred;
+}
+.nc{
+  background-color: black;
+}
